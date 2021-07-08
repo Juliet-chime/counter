@@ -4,7 +4,7 @@ let wholenum = Number(num);
 let increase = document.getElementById('increase')
 let decrease = document.getElementById('decrease')
 
-let int = setInterval(loading, 30)
+let int = setInterval(loading, 1000)
 
 increase.addEventListener('click', loading)
 
